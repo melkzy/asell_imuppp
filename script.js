@@ -18,7 +18,7 @@ const second = 1000,
   day = hour * 24;
 
 // 'Augt' diperbaiki menjadi 'Aug' agar tanggalnya bisa terbaca oleh sistem
-let countDown = new Date('Aug 20, 2026 00:00:00').getTime();
+let countDown = new Date('Aug 10, 2026 00:00:00').getTime();
 
 const x = setInterval(function () {
   let now = new Date().getTime(),
